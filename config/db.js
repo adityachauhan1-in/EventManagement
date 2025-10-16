@@ -4,7 +4,7 @@ import dotenv from "dotenv";
 dotenv.config();
 
   const sequelize = new Sequelize(process.env.DATABASE_URL, {
-  dialect: "postgres", // PostGreSQL using sequelize
+  dialect: "postgres", // PostGreSQL via sequelize
   dialectOptions: {
 
     ssl: { require: true },
